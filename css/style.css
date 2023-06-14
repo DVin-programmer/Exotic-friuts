@@ -1,0 +1,1068 @@
+/* Подключение шрифтов */
+@font-face {
+    font-family: 'LatoMedium';
+    src: url("../fonts/Lato/latomedium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'LatoSemibold';
+    src: url("../fonts/Lato/latosemibold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'LatoRegular';
+    src: url("../fonts/Lato/latoregular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'LatoBold';
+    src: url("../fonts/Lato/latobold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'LexendBold';
+    src: url("../fonts/Lexend/Lexend-Bold.ttf") format("truetype");
+}
+
+/* ----------------- */
+
+.carousel-2-item,
+.control-2-item-left, .control-2-item-right,
+.carousel-1-item,
+.control-1-item-left, .control-1-item-right {
+    display: none;
+}
+
+/* --------------------- */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    max-width: 1600px;
+    overflow-x: hidden;
+	margin: auto;
+}
+
+.header {
+    height: 342px;
+}
+
+.header__background {
+    background-image: url("../img/bg_palm.png");
+    background-size: 1599px;
+    height: 349px;
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+    background-position-x: 0px;
+}
+
+.header__logo {
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 12px;
+}
+
+.menu {
+    display: inline-block;
+    margin-left: -84px;
+    margin-top: 10px;
+}
+
+.menu__list {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 94px;
+    margin-left: 4px;
+}
+
+.menu__item {
+    display: inline-block;
+    list-style-type: none;
+    height: 55px;
+    padding: 13px 44px;
+    border: 1px solid rgba(89, 190, 41, 0.3);
+    background-color: #59BE29;
+    color: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(22, 52, 7, 0.15);
+    border-radius: 20px 80px;
+}
+
+
+.menu__item:nth-child(1) {
+    width: 138px;
+}
+
+
+.menu__item:nth-child(2) {
+    width: 136px;
+    margin-left: 32px;
+}
+
+.menu__item:nth-child(3) {
+    width: 170px;
+    margin-left: 37px;
+}
+
+.menu__link {
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    font-family: 'LatoMedium';
+    font-size: 18px;
+    color: #FFFFFF;
+
+    width: 127px;
+    height: 54px;
+    margin-top: -14px;
+    margin-left: -41px;
+    text-align: center;
+    padding-top: 14px;
+}
+
+
+.menu__item:nth-child(3) a {
+    padding-left: 33px;
+}
+
+.menu__link:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.menu__item:hover {
+    background: #73DF3F;
+}
+
+/* Секция main-info */
+.main-info {
+    height: 438px;
+}
+
+.main-info__title {
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #0A1902;
+    font-family: 'LatoMedium';
+    font-size: 25px;
+
+    margin-left: 63px;
+}
+
+.main-info__subtitle {
+    font-family: 'LatoSemibold';
+    font-size: 80px;
+    color: #59BE29;
+
+    margin-top: 5px;
+    margin-left: 29px;
+}
+
+
+.main-info__left {
+    width: 507px;
+    margin-left: -33px;
+    margin-top: -33px;
+}
+
+.main-info__add_information {
+    font-family: 'LatoRegular';
+    font-size: 18px;
+    color: #0A1902;
+    line-height: 29px;
+    letter-spacing: 1px;
+    text-align: justify;
+    opacity: 0.7;
+
+    margin-top: 18px;
+    margin-left: 2px;
+
+}
+
+.main-info__image {
+    width: 572px;
+    height: 370px;
+    display: block;
+    margin-left: -140px;
+    margin-top: 6px;
+}
+
+/* ---------------------- */
+.about-shop {
+    height: 641px;
+}
+
+.about-shop__left {
+    width: 723px;
+    margin-top: 72px;
+    margin-left: 200px;
+}
+
+.about-shop__image {
+    display: inline-block;
+    width: 544px;
+    height: 515px;
+}
+
+.about-shop__right {
+    width: 691px;
+    margin-left: -60px;
+    margin-top: 37px;
+}
+
+.about-shop__title, .title {
+    font-family: 'LatoBold';
+    font-size: 49px;
+    line-height: 130%;
+    color: #59BE29;
+    letter-spacing: 3px;
+}
+
+.about-shop__subtitle {
+    width: 613px;
+    margin-top: 24px;
+    margin-left: 2px;
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.subtitle {
+    font-family: 'LatoRegular';
+    text-align: justify;
+    color: #0A1902;
+    opacity: 0.7;
+}
+
+/* --------------------------------- */
+.current-info__useful-info {
+    padding-top: 29px;
+    padding-left: 82px;
+}
+
+.cell-12 {
+    padding-left: 88px;
+}
+
+
+.current-info__title {
+    font-family: 'LatoMedium';
+    font-size: 49px;
+    line-height: 130%;
+    color: #82CD5E;
+    margin: 0;
+}
+
+.cell-12 .current-info__title {
+    margin-top: 1px;
+}
+
+
+.cell-22 .current-info__title {
+    padding-left: 6px;
+}
+
+
+.current-info__line {
+    width: 113px;
+    height: 0px;
+    border: 2px solid #59BE29;
+    margin: 0;
+    margin-top: -5px;
+}
+
+
+.cell-12 .current-info__line {
+    width: 104px;
+}
+
+.cell-22 .current-info__line {
+    margin-left: 6px;
+    margin-top: -6px;
+    width: 104px;
+}
+
+
+.current-info__description {
+    font-family: 'LatoRegular';
+    font-size: 18px;
+    line-height: 160%;
+    color: #0A1902;
+    opacity: 0.7;
+    margin: 0;
+    margin-top: 3px;
+}
+
+.cell-22 .current-info__description {
+    margin-left: 6px;
+}
+
+/* ---------------------------------------------- */
+/* Секция price */
+.price {
+    height: 844px;
+}
+
+.price__title {
+    margin-left: 251px;
+    margin-top: 81px;
+}
+
+.price__card-fruit {
+    width: 362px;
+    height: 572px;
+    background: #FFFFFF;
+    border: 1px solid #FEFEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.price__name-fruit {
+    font-family: 'LatoBold';
+    font-size: 25px;
+    line-height: 150%;
+    text-align: center;
+    color: #0A1902;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.price__stars {
+    margin-left: 120px;
+    margin-top: -4px;
+}
+
+.price__descrition {
+    font-family: 'LatoBold';
+    font-size: 35px;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #59BE29;
+}
+
+.price__button {
+    cursor: pointer;
+    padding: 13px 44px;
+    width: 191px;
+    height: 55px;
+    background: linear-gradient(180deg, #59BE29 0%, #59BE29 100%);
+    box-shadow: 0px 10px 20px rgba(22, 52, 7, 0.15);
+    border-radius: 20px 80px;
+
+    font-family: 'LatoMedium';
+    font-size: 18px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+
+.price__button:hover {
+    background: #73DF3F;
+}
+
+/* ----------------------- */
+.price__cards-3-col-1 {
+    margin-top: 36px;
+    margin-left: 226px;
+}
+
+.price__cards-3-col-2 {
+    margin-top: -572px;
+    margin-left: 620px;
+}
+
+.price__cards-3-col-3 {
+    margin-top: -572px;
+    margin-left: 1011px;
+}
+
+/* --------------------------------- */
+.price__cards-3-col-1 .price__image-fruit {
+    margin-top: 23px;
+    margin-left: 25px;
+    width: 315px;
+    height: 242.24px;
+}
+
+.price__cards-3-col-1 .price__name-fruit {
+    margin-left: 4px;
+    margin-top: -3px;
+}
+
+.price__cards-3-col-1 .price__descrition {
+    margin-left: 118px;
+    margin-top: 4px;
+}
+
+.price__cards-3-col-1 .price__button {
+    margin-top: 52px;
+    margin-left: 92px;
+}
+
+/* ------------------------------------ */
+.price__cards-3-col-2 .price__image-fruit {
+    margin-left: 44px;
+    margin-top: 8px;
+    width: 272px;
+    height: 256px;
+}
+
+.price__cards-3-col-2 .price__name-fruit {
+    margin-left: 3px;
+    margin-top: -8px;
+}
+
+.price__cards-3-col-2 .price__stars {
+    margin-top: 7px;
+    margin-left: 114px;
+}
+
+.price__cards-3-col-2 .price__descrition {
+    margin-left: 108px;
+    margin-top: 7px;
+}
+
+.price__cards-3-col-2 .price__button {
+    margin-left: 82px;
+    margin-top: 51px;
+}
+
+/* ------------------------------ */
+.price__cards-3-col-3 .price__image-fruit {
+    margin-left: 16px;
+    margin-top: 9px;
+    width: 310px;
+    height: 241px;
+}
+
+.price__cards-3-col-3 .price__name-fruit {
+    margin-left: 3px;
+    margin-top: 6px;
+}
+
+.price__cards-3-col-3 .price__stars {
+    margin-left: 121px;
+    margin-top: 8px;
+}
+
+
+.price__cards-3-col-3 .price__descrition {
+    margin-left: 121px;
+    margin-top: 5px;
+}
+
+.price__cards-3-col-3 .price__button {
+    margin-left: 82px;
+    margin-top: 53px;
+}
+
+/* ------------------------- */
+/* Для 2-х колонок */
+.price__cards-2-col-1 {
+    margin-top: 36px;
+    margin-left: 20%;
+}
+
+.price__cards-2-col-2 {
+    margin-top: -572px;
+    margin-left: 50%;
+}
+
+/* -------------------------- */
+.price__cards-2-col-1 .price__image-fruit {
+    margin-top: 23px;
+    margin-left: 25px;
+    width: 315px;
+    height: 242.24px;
+}
+
+.price__cards-2-col-1 .price__name-fruit {
+    margin-left: 4px;
+    margin-top: -3px;
+}
+
+.price__cards-2-col-1 .price__descrition {
+    margin-left: 118px;
+    margin-top: 4px;
+}
+
+.price__cards-2-col-1 .price__button {
+    margin-top: 52px;
+    margin-left: 92px;
+}
+
+/* ------------------------------------ */
+.price__cards-2-col-2 .price__image-fruit {
+    margin-left: 44px;
+    margin-top: 8px;
+    width: 272px;
+    height: 256px;
+}
+
+.price__cards-2-col-2 .price__name-fruit {
+    margin-left: 3px;
+    margin-top: -8px;
+}
+
+.price__cards-2-col-2 .price__stars {
+    margin-top: 7px;
+    margin-left: 114px;
+}
+
+.price__cards-2-col-2 .price__descrition {
+    margin-left: 108px;
+    margin-top: 7px;
+}
+
+.price__cards-2-col-2 .price__button {
+    margin-left: 82px;
+    margin-top: 51px;
+}
+
+/* ----------------------- */
+/* Для 1 колонки */
+.price__cards-1-col-1 {
+    margin-top: 36px;
+    margin-left: 30%;
+}
+
+/* ------------------------- */
+.price__cards-1-col-1 .price__image-fruit {
+    margin-top: 23px;
+    margin-left: 25px;
+    width: 315px;
+    height: 242.24px;
+}
+
+.price__cards-1-col-1 .price__name-fruit {
+    margin-left: 4px;
+    margin-top: -3px;
+}
+
+.price__cards-1-col-1 .price__descrition {
+    margin-left: 118px;
+    margin-top: 4px;
+}
+
+.price__cards-1-col-1 .price__button {
+    margin-top: 52px;
+    margin-left: 92px;
+}
+
+/* ----------------------------- */
+.carousel-inner {
+    height: 622px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url('../img/arrow_left.png');
+    width: 61px;
+    height: 57px;
+    align-items: flex-start;
+}
+
+.carousel-control-next-icon {
+    background-image: url('../img/arrow_right.png');
+    width: 61px;
+    height: 57px;
+    margin-left: 16px;
+}
+
+.control-3-item-left {
+    margin-top: 201px;
+    margin-left: 58px;
+}
+
+.control-3-item-right {
+    margin-top: 201px;
+    margin-right: 63px;
+}
+
+.control-2-item-left {
+    margin-top: 458px;
+    margin-left: 58px;
+}
+
+.control-2-item-right {
+    margin-top: 458px;
+    margin-right: 62px;
+}
+
+.control-1-item-left {
+    margin-top: 458px;
+    margin-left: 58px;
+}
+
+.control-1-item-right {
+    margin-top: 458px;
+    margin-right: 62px;
+}
+
+/* ----------------- */
+/* Раздел contacs */
+.contacts {
+    height: 1123px;
+}
+
+.contacts__subtitle {
+    font-size: 24px;
+    line-height: 37px;
+    margin-top: 42px;
+    margin-left: 4px;
+}
+
+.subtitle__bold {
+    font-family: 'LatoBold';
+}
+
+.contacts__left {
+    margin-left: -23px;
+    margin-top: 68px;
+}
+
+/* .contacts__right {
+    margin-left: 920px;
+    margin-top: -329px;
+} */
+
+.contacts__image {
+    width: 369px;
+    height: 296px;
+    margin-top: 67px;
+    margin-left: -167px;
+}
+
+.contacts__map {
+    margin-left: -22px;
+    margin-top: 20px;
+}
+
+/* ----------------------------------- */
+/* Секция subscription */
+.subscription__form {
+    width: 1148px;
+    height: 360px;
+    margin-top: 22px;
+    margin-left: 117px;
+
+    background: #FFFFFF;
+    border-radius: 30px;
+
+    -webkit-box-shadow: 13px 4px 35px -2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 13px 4px 35px -2px rgba(34, 60, 80, 0.2);
+    box-shadow: 13px 4px 35px -2px rgba(34, 60, 80, 0.2);
+
+}
+
+.form__image {
+    margin-top: 36px;
+    margin-left: 95px;
+    width: 369px;
+    height: 297px;
+}
+
+.form__right {
+    margin-left: 708px;
+    margin-top: -299px;
+    width: 474px;
+}
+
+.form__title {
+    font-family: 'LatoBold';
+    font-size: 34px;
+    line-height: 130%;
+    color: #0A1902;
+    letter-spacing: 2px;
+}
+
+.form__subtitle {
+    font-family: 'LatoRegular';
+    font-size: 18px;
+    line-height: 160%;
+    color: #0A1902;
+    opacity: 0.7;
+    margin-top: 22px;
+}
+
+.form__input {
+    padding-left: 26px;
+    width: 258px;
+    height: 59px;
+    background: #FFFFFF;
+
+    -webkit-box-shadow: 13px 4px 35px -2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 13px 4px 35px -2px rgba(34, 60, 80, 0.2);
+    box-shadow: 13px 4px 35px -2px rgba(34, 60, 80, 0.2);
+
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'LatoRegular';
+    color: #0A1902;
+    opacity: 0.6;
+}
+
+.form__button {
+    align-items: center;
+    padding-left: 8px;
+    width: 149px;
+    height: 59px;
+    background: #59BE29;
+    border-radius: 10px;
+    font-family: 'LatoMedium';
+    font-size: 18px;
+    line-height: 160%;
+    color: #FFFFFF;
+
+    margin-left: 23px;
+}
+
+.form__button:hover {
+    background: #73DF3F;
+}
+
+.form {
+    margin-top: 45px;
+    margin-left: 2px;
+}
+
+.form input {
+    border: none;
+}
+
+/* ----------------------- */
+/* Секция footer */
+
+.footer__title {
+    font-family: 'LatoBold';
+    font-size: 22px;
+    line-height: 140%;
+    color: #0A1902;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-left: 62px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.footer__finance {
+    margin-left: 859px;
+    margin-top: 116px;
+}
+
+.footer__menu {
+    display: inline-block;
+    margin-left: -694px;
+    margin-top: -10px;
+}
+
+.footer__list {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+
+.footer__item {
+    cursor: pointer;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.footer__item:nth-child(1) {
+    padding-left: 51px;
+}
+
+.footer__item:nth-child(2) {
+    margin-left: 14px;
+}
+
+.footer__item:nth-child(3) {
+    margin-left: 13px;
+}
+
+.footer__image {
+    width: 226.07px;
+    height: 133px;
+    margin-left: 632px;
+    margin-top: 119px;
+}
+
+/* ------------------------------- */
+.bg-light {
+    background-color: rgb(0 0 0 / 0%) !important;
+}
+
+.menu__togger {
+    display: none;
+}
+
+.navbar-toggler {
+    background-color: #59BE29;
+}
+
+.menu__navbar-toggle {
+    display: none;
+}
+
+/* ---------------------------------------- */
+@media (max-width: 1599px) {
+    .header__background {
+        background-image: none;
+    }
+
+    .contacts {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .contacts__image, .contacts__left, .contacts__map {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .contacts__map-iframe {
+        width: 72vw;
+        min-width: 375px;
+    }
+
+    /* ----------------------- */
+    .main-info__image, .main-info__left {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .main-info__image {
+        width: 90%;
+        height: 90%;
+    }
+
+    /* ---------------------- */
+
+    .about-shop__right {
+        width: 54vw;
+    }
+
+    .about-shop__image {
+        width: 29vw;
+        height: 50%;
+    }
+
+    /* ---------------------- */
+    .subscription__form {
+        width: 71vw;
+    }
+
+    .form__image {
+        width: 22vw;
+    }
+
+    /* ---------------------- */
+    .footer__image {
+        margin-left: 70%;
+    }
+
+
+
+}
+
+@media (max-width: 1591px) {
+    .carousel-3-item, .control-3-item-left, .control-3-item-right {
+        display: none;
+    }
+
+    .carousel-2-item, .control-2-item-left, .control-2-item-right {
+        display: block;
+    }
+
+    /* --------------------------- */
+    .form__image {
+        display: none;
+    }
+
+    .form__right {
+        margin-left: 322px;
+    }
+}
+
+@media (max-width: 1246px) {
+    .carousel-2-item, .control-2-item-left, .control-2-item-right {
+        display: none;
+    }
+
+    .carousel-1-item, .control-1-item-left, .control-1-item-right {
+        display: block;
+    }
+
+
+}
+
+@media (max-width: 1199px) {
+    .menu {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .contacts__right {
+        display: none;
+    }
+
+    .about-shop__left {
+        display: none;
+    }
+
+    .main-info__image {
+        display: none;
+    }
+
+    .main-info__left {
+        /* width: 63vw; */
+        width: 31em;
+    }
+
+    .about-shop__subtitle {
+        /* width: 63vw; */
+        width: 27em;
+    }
+
+    .current-info__information {
+        margin-left: -70px;
+    }
+
+    .about-shop__right {
+        margin-left: 0;
+    }
+
+    /* ------------------ */
+    .form__right {
+        margin-left: 50%;
+    }
+
+
+}
+
+
+@media (max-width: 991px) {
+    .menu {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /* ---------------------- */
+    .main-info__subtitle {
+        font-size: 49px;
+    }
+
+    .title {
+        /* font-size: 29px; */
+        font-size: 2em;
+        width: 13em;
+    }
+
+    .contacts__subtitle {
+        font-size: 19px;
+    }
+
+    .current-info__description {
+        font-size: 11px;
+    }
+
+    /* ---------------------- */
+    .header__logo {
+        display: none;
+    }
+
+    /* ----------------------- */
+    .subscription__form {
+        margin-left: 90px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .price__cards-1-col-1 {
+        margin-left: 20%;
+    }
+}
+
+@media (max-width: 767px) {
+    html, body {
+        min-width: 577px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+
+    .menu__navbar-toggle {
+        display: block;
+    }
+
+    .menu__togger {
+        display: block;
+        background-color: #59BE29;
+        height: 167px;
+        width: 200px;
+    }
+
+    .menu__list-togger {
+        padding-top: 49px;
+        padding-right: 38px;
+    }
+
+    .menu__item-togger {
+        list-style-type: none;
+        padding-bottom: 10px;
+    }
+
+    .menu__link-togger {
+        text-decoration: none;
+        color: white;
+    }
+
+    .menu__link-togger:hover {
+        color: white;
+    }
+
+    /* ------------------------ */
+    .main-info__left {
+        /* width: 63vw; */
+        width: 27em;
+    }
+
+    .about-shop__subtitle {
+        /* width: 63vw; */
+        width: 24em;
+    }
+
+    /* ------------------------- */
+
+    .header__background {
+        background-image: url("../img/palms.png");
+        background-size: auto;
+        height: 349px;
+        background-repeat: no-repeat;
+        background-position-y: 0px;
+        background-position-x: 329px
+    }
+
+    /* ------------------- */
+
+    .about-shop__current-info {
+        margin-left: -77px;
+    }
+
+    .current-info__information {
+        margin-left: 0;
+    }
+
+    /* -------------------- */
+    .subscription {
+        display: none;
+    }
+
+    /* --------------------- */
+    .footer__finance {
+        margin-left: 740px;
+    }
+
+    .footer__image {
+        display: none;
+    }
+}
