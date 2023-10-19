@@ -5,7 +5,7 @@
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
-[Демонстрация](https://dvin-programmer.github.io/practice-ExoticFruits/)
+[Демонстрация](https://dvin-programmer.github.io/landing-ExoticFruits/)
 <br>![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
 
 ## Предпросмотр
